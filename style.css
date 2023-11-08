@@ -1,0 +1,187 @@
+
+
+
+/* size of page for the header*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    background-color: #D9CDB8; 
+}
+
+/* header */
+header {
+    background-color: #F2F2DF; 
+    color: #594A3C; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    left: 0;
+    top:0;
+}
+img {
+    height: 30%;
+    width: 30%;
+
+}
+
+.nav-links {
+    list-style-type: none; ; 
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #594A3C; 
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;;
+}
+
+/* homepage*/
+.center {
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  display:flex;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+
+
+.quote-text{
+    color: #591C0E;
+    font-size: 24px;
+    font-family:sarif;
+}
+.quote-title{;
+    Font-size:30px;
+}
+
+/* about page*/
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info {
+    width: 50%; /* Adjust the width as needed */
+    padding: 100px;
+    vertical-align: top; /* Align content at the top of the cell */
+    font-size:33px;
+    color: #591C0E;
+    font-family:serif;
+}
+   
+
+.image-about{
+    width: 50%; /* Adjust the width as needed */
+}
+
+.image-about img {
+    height: auto;
+    width: 100%;
+}
+
+.info h2 {
+    font-size:40px;
+    color: #591C0E;
+    font-family:serif;
+}
+.info p {
+    font-size:26px;
+    font-family:serif;
+    color:#594A3C;
+        }
+#about-image-description {
+    color:#f2f2Df;
+        }
+
+
+/*books page*/
+.image-container { 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 20px;
+        }
+.image{
+flex: 1;
+height:50%;
+width: auto;
+max-width: 300px
+     }
+
+.image-container img {
+    width: auto;
+    max-width: 300px;
+        }
+.list {
+    padding:0 ;
+    text-align: center;
+    font-size:1.3em;
+    list-style-type: none;
+    font-family: serif;
+    color:#594A3C;
+     }
+.image{
+    flex-basis: 30%;
+    margin-bottom: 20px;
+        }
+.list li:first-child {
+    font-family: serif;
+    list-style:none;
+    font-weight:bold;
+    font-size: 1.5em;
+    color:#591C0E;
+        }
+        
+.list a {
+    text-decoration:none;
+        }
+/*music page*/
+
+.songlist {
+
+    font-family: serif;
+    list-style: none;
+    font-weight: normal;
+    font-size: .8em;
+    color: #594A3C;
+}
+
+#footer{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
